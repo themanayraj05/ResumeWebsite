@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Stories - Blog Platform</title>
+    <link rel="stylesheet" href="Project2.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <span>✍️</span>Stories
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" target="_blank">Home</a></li>
+                    <li><a href="#featured" target="_blank">Featured</a></li>
+                    <li><a href="#trending" target="_blank">Trending</a></li>
+                    <li><a href="#authors" target="_blank">Authors</a></li>
+                    <li><a href="#write" class="write-btn" target="_blank">Write a Story</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Discover Amazing Stories</h1>
+        <p>Read, write, and share your thoughts with a community of passionate storytellers</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for stories, topics, or authors...">
+            <span class="search-icon">🔍</span>
+        </div>
+    </section>
+
+    <section style="background: white; padding: 2rem 0;">
+        <div class="categories">
+            <div class="category-btn active">All Stories</div>
+            <div class="category-btn">Technology</div>
+            <div class="category-btn">Lifestyle</div>
+            <div class="category-btn">Travel</div>
+            <div class="category-btn">Food</div>
+            <div class="category-btn">Business</div>
+            <div class="category-btn">Health</div>
+            <div class="category-btn">Art & Design</div>
+        </div>
+    </section>
+
+    <main>
+        <section class="featured-section" id="featured">
+            <h2 class="section-title">🌟 Featured Story</h2>
+            <div class="featured-post">
+                <div class="featured-image">
+                    <img src="https://imgcdn.stablediffusionweb.com/2024/3/21/c0841763-b7c0-4b56-80d0-f7db6d258218.jpg" 
+                    width="450px">
+                </div>
+                <div class="featured-content">
+                    <div class="blog-meta">
+                        <div class="author-avatar">SA</div>
+                        <div class="author-info">
+                            <div class="author-name">Sarah Anderson</div>
+                            <div class="post-date">3 days ago · 8 min read</div>
+                        </div>
+                    </div>
+                    <span class="blog-category">Technology</span>
+                    <h3 class="blog-title">The Future of Artificial Intelligence: What to Expect in 2025</h3>
+                    <p class="blog-excerpt">
+                        As we navigate through 2025, artificial intelligence continues to reshape our world 
+                        in unprecedented ways. From healthcare innovations to autonomous vehicles, AI is becoming 
+                        an integral part of our daily lives. In this comprehensive guide, we explore the latest 
+                        trends and what they mean for the future.
+                    </p>
+                    <a href="#" class="read-more">Read Full Story</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="content-wrapper">
+            <div>
+                <h2 class="section-title">Latest Stories</h2>
+                <div class="blog-grid">
+                    <div class="blog-card">
+                        <div class="blog-image blog-2">
+                            <img src="https://usa.united-imaging.com/news/press/first-annual-report" width="" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                
+                                <div class="author-avatar">MJ</div>
+                                <div class="author-info">
+                                    <div class="author-name">Michael Johnson</div>
+                                    <div class="post-date">5 days ago</div>
+                                </div>
+                            </div>
+                            <span class="blog-category">Travel</span>
+                            <h3 class="blog-title">10 Hidden Gems in Southeast Asia</h3>
+                            <p class="blog-excerpt">
+                                Discover the most breathtaking and underrated destinations in Southeast Asia 
+                                that tourists often miss. From pristine beaches to ancient temples.
+                            </p>
+                            <div class="blog-stats">
+                                <span class="stat">❤️ 234</span>
+                                <span class="stat">💬 45</span>
+                                <span class="stat">⏱️ 6 min</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-image blog-3">
+                            <img src="https://guanabee.com/wp-content/uploads/2023/04/The-Best-Visibility-Strategies-For-Startups-.jpg" 
+                            width="300px">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <div class="author-avatar">EP</div>
+                                <div class="author-info">
+                                    <div class="author-name">Emily Parker</div>
+                                    <div class="post-date">1 week ago</div>
+                                </div>
+                            </div>
+                            <span class="blog-category">Business</span>
+                            <h3 class="blog-title">Building a Startup: Lessons from My First Year</h3>
+                            <p class="blog-excerpt">
+                                Starting a business is challenging but incredibly rewarding. Here's what I 
+                                learned during my first year as a founder and entrepreneur.
+                            </p>
+                            <div class="blog-stats">
+                                <span class="stat">❤️ 456</span>
+                                <span class="stat">💬 89</span>
+                                <span class="stat">⏱️ 10 min</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-image blog-4">
+                            <img src="https://tse2.mm.bing.net/th/id/OIP.o2c6db60BcqMg0a-T3AbYQHaEE?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" 
+                            width="350px">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <div class="author-avatar">DL</div>
+                                <div class="author-info">
+                                    <div class="author-name">David Lee</div>
+                                    <div class="post-date">1 week ago</div>
+                                </div>
+                            </div>
+                            <span class="blog-category">Health</span>
+                            <h3 class="blog-title">Mindfulness in the Digital Age</h3>
+                            <p class="blog-excerpt">
+                                In a world dominated by screens and notifications, finding peace can seem 
+                                impossible. Learn practical mindfulness techniques for modern life.
+                            </p>
+                            <div class="blog-stats">
+                                <span class="stat">❤️ 567</span>
+                                <span class="stat">💬 123</span>
+                                <span class="stat">⏱️ 7 min</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-image blog-5">
+                            <img src="https://www.simonandsimon.co.uk/media/learn-italian-language-faster-compressor.jpg" 
+                            width="300px">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <div class="author-avatar">JC</div>
+                                <div class="author-info">
+                                    <div class="author-name">Julia Chen</div>
+                                    <div class="post-date">2 weeks ago</div>
+                                </div>
+                            </div>
+                            <span class="blog-category">Food</span>
+                            <h3 class="blog-title">Mastering Italian Cuisine at Home</h3>
+                            <p class="blog-excerpt">
+                                Authentic Italian cooking doesn't require a fancy kitchen. Here are my 
+                                favorite recipes and tips for bringing Italy to your dining table.
+                            </p>
+                            <div class="blog-stats">
+                                <span class="stat">❤️ 389</span>
+                                <span class="stat">💬 67</span>
+                                <span class="stat">⏱️ 12 min</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-image blog-6">
+                            <img src="https://i.pinimg.com/originals/67/d6/b8/67d6b8ae165026429cc79a5de864153b.png" 
+                            width="150px">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <div class="author-avatar">RB</div>
+                                <div class="author-info">
+                                    <div class="author-name">Rachel Brown</div>
+                                    <div class="post-date">2 weeks ago</div>
+                                </div>
+                            </div>
+                            <span class="blog-category">Art & Design</span>
+                            <h3 class="blog-title">The Psychology of Color in Design</h3>
+                            <p class="blog-excerpt">
+                                Colors evoke emotions and influence decisions. Discover how designers use 
+                                color psychology to create compelling experiences.
+                            </p>
+                            <div class="blog-stats">
+                                <span class="stat">❤️ 678</span>
+                                <span class="stat">💬 145</span>
+                                <span class="stat">⏱️ 9 min</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-image blog-7">
+                            <img src="https://tse1.mm.bing.net/th/id/OIP.pWjr3W3Q-K600W5sNPnOpQHaFY?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" 
+                            width="300px">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <div class="author-avatar">TW</div>
+                                <div class="author-info">
+                                    <div class="author-name">Tom Wilson</div>
+                                    <div class="post-date">3 weeks ago</div>
+                                </div>
+                            </div>
+                            <span class="blog-category">Lifestyle</span>
+                            <h3 class="blog-title">Creating Your Perfect Home Office</h3>
+                            <p class="blog-excerpt">
+                                Working from home is here to stay. Transform your space into a productive 
+                                and comfortable home office with these essential tips.
+                            </p>
+                            <div class="blog-stats">
+                                <span class="stat">❤️ 445</span>
+                                <span class="stat">💬 78</span>
+                                <span class="stat">⏱️ 8 min</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-image blog-8">
+                            <img src="https://unbounce.com/photos/webtrends.gif" 
+                            width="300px">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <div class="author-avatar">LM</div>
+                                <div class="author-info">
+                                    <div class="author-name">Lisa Martinez</div>
+                                    <div class="post-date">3 weeks ago</div>
+                                </div>
+                            </div>
+                            <span class="blog-category">Technology</span>
+                            <h3 class="blog-title">Web Development Trends to Watch</h3>
+                            <p class="blog-excerpt">
+                                The web development landscape is constantly evolving. Stay ahead with these 
+                                emerging trends and technologies shaping the industry.
+                            </p>
+                            <div class="blog-stats">
+                                <span class="stat">❤️ 892</span>
+                                <span class="stat">💬 201</span>
+                                <span class="stat">⏱️ 11 min</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-image blog-9">
+                            <img src="https://tse2.mm.bing.net/th/id/OIP.5mbAOlPr8WyLUbKzFklwAQHaEK?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" 
+                            width="300px">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <div class="author-avatar">KT</div>
+                                <div class="author-info">
+                                    <div class="author-name">Kevin Taylor</div>
+                                    <div class="post-date">1 month ago</div>
+                                </div>
+                            </div>
+                            <span class="blog-category">Travel</span>
+                            <h3 class="blog-title">Photography Tips for Travel Enthusiasts</h3>
+                            <p class="blog-excerpt">
+                                Capture stunning travel photos with these professional techniques. No 
+                                expensive equipment required, just passion and practice.
+                            </p>
+                            <div class="blog-stats">
+                                <span class="stat">❤️ 523</span>
+                                <span class="stat">💬 94</span>
+                                <span class="stat">⏱️ 7 min</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-image blog-1">
+                            <img src="https://assets.zencare.co/2020/09/Tips-for-Building-Good-Habits---1-1.png" height="200px" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <div class="author-avatar">AG</div>
+                                <div class="author-info">
+                                    <div class="author-name">Alex Garcia</div>
+                                    <div class="post-date">1 month ago</div>
+                                </div>
+                            </div>
+                            <span class="blog-category">Health</span>
+                            <h3 class="blog-title">Building Healthy Habits That Actually Stick</h3>
+                            <p class="blog-excerpt">
+                                Most New Year's resolutions fail by February. Learn the science behind 
+                                habit formation and create lasting positive changes.
+                            </p>
+                            <div class="blog-stats">
+                                <span class="stat">❤️ 734</span>
+                                <span class="stat">💬 156</span>
+                                <span class="stat">⏱️ 10 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="sidebar">
+                <div class="sidebar-widget" id="trending">
+                    <h3 class="widget-title">🔥 Trending Now</h3>
+                    <div class="trending-list">
+                        <div class="trending-item">
+                            <div class="trending-number">1</div>
+                            <div class="trending-info">
+                                <h4>The Rise of Remote Work Culture</h4>
+                                <p>by Amanda Roberts · 12k reads</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
+                            <div class="trending-number">2</div>
+                            <div class="trending-info">
+                                <h4>Sustainable Living in 2025</h4>
+                                <p>by Mark Stevens · 10k reads</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
+                            <div class="trending-number">3</div>
+                            <div class="trending-info">
+                                <h4>Mental Health in Tech Industry</h4>
+                                <p>by Jessica White · 9k reads</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
+                            <div class="trending-number">4</div>
+                            <div class="trending-info">
+                                <h4>Cryptocurrency for Beginners</h4>
+                                <p>by Chris Miller · 8k reads</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
